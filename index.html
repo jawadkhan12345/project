@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        #left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+
+        }
+
+        #mid {
+            /* border: 2px solid red; */
+            WIDTH: 530px;
+            height: 40px;
+            padding: 2px;
+            display: inline-block;
+            margin: auto;
+            margin-left: 300px;
+
+        }
+
+        #right {
+            display: inline-block;
+            /* border: 2px solid red; */
+            right: 30px;
+            top: 9px;
+            position: absolute;
+            margin: 7px;
+            padding: 6px;
+        }
+
+        /* .left img{
+            width: 99px;
+            height: 56px;
+            display: flex; */
+
+
+
+        .navbar {
+
+            display: inline-block;
+            margin: auto;
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* padding: 1px; */
+            /* margin: 7px; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            margin: 13px;
+        }
+
+        .navbar li a:hover {
+            background-color: grey;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            border: 2px solid grey;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            background-color: grey;
+            cursor: pointer;
+
+        }
+
+        .main { 
+            /* border: 2px solid grey; */
+            margin: 100px auto;
+            padding: 12px;
+            width: 33%;
+        }
+        .box{
+            margin: 4px 3px;
+            padding: 6px;
+            margin-left: 85px;
+            color: white;
+            
+        }
+        .no1{
+            border-radius: 20px;
+            background-color: rgba(180, 112, 73, 0);
+            color : white;
+            padding: 6px 6px;
+            margin: 5px auto;            
+        }
+        .add{
+            background-color:rgba(180, 112, 73, 0);
+            color: white;
+            cursor: pointer;
+        }
+        .add:hover{
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body background="ll.jpg">
+    <header>
+        <div class="container">
+            <div class="box" id="left">
+                <img src="bo.jpg" style="width: 66px; height: 40px;">
+                <div>
+                    <center>Arnold Fitness</center>
+                </div>
+            </div>
+            <div class="box" id="mid">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Fitness Guide</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box" id="right">
+                <button class="btn">HELP </button>&nbsp;&nbsp;
+                <button class="btn">Email Us</button>
+            </div>
+        </div>
+    </header>
+    <div class="main"> 
+        <form>
+        <div class="box">
+            <input type="text" class="no1" placeholder="Enter your Name">
+        </div>
+        <div class="box">
+            <input type="text" class="no1" placeholder="Enter your AGE">
+
+        </div>
+        <div class="box">
+            <input type="text" class="no1" placeholder="Enter your Contact no">
+
+        </div>
+        <div class="box">
+            <input type="text" class="no1" placeholder="Enter your Gender">
+
+        </div>
+        <div class="box">
+            <button class="add">Submit</button>
+        </div>
+           
+    </form>
+    </div>
+    <footer>
+        <textarea name="Feedback" id="22" placeholder="Give us a valueable feedback" rows="5" style="background-color: rgba(180, 112, 73, 0); color: white;"></textarea>
+</body>
+
+</html>
